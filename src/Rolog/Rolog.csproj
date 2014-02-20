@@ -101,12 +101,23 @@
     <None Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Content\img\red-signin_google_base_44dp.png" />
+    <None Include="Content\js\app\app.js" />
+    <None Include="Content\js\app\controllers\UserCharacterController.js" />
+    <None Include="Content\js\app\controllers\UserController.js" />
+    <None Include="Content\js\app\filters.js" />
     <None Include="Content\js\main.js" />
-    <None Include="Content\js\vendor\angular.min.js" />
+    <None Include="Content\js\vendor\angular\angular-resource.min.js" />
+    <None Include="Content\js\vendor\angular\angular-resource.min.js.map" />
+    <None Include="Content\js\vendor\angular\angular-route.min.js" />
+    <None Include="Content\js\vendor\angular\angular-route.min.js.map" />
+    <None Include="Content\js\vendor\angular\angular.min.js" />
+    <None Include="Content\js\vendor\angular\angular.min.js.map" />
     <None Include="Content\js\vendor\bootstrap.js" />
     <None Include="Content\js\vendor\bootstrap.min.js" />
     <None Include="Content\js\vendor\jquery-1.10.1.min.js" />
     <None Include="Content\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
+    <None Include="Content\partials\user.html" />
+    <None Include="Content\partials\user_character.html" />
     <None Include="packages.config" />
     <None Include="Views\Home\index.html" />
     <None Include="Views\Users\index.html" />
@@ -117,7 +128,13 @@
     <Folder Include="Content\fonts" />
     <Folder Include="Content\img" />
     <Folder Include="Content\js" />
+    <Folder Include="Content\js\app" />
+    <Folder Include="Content\js\app\controllers" />
+    <Folder Include="Content\js\app\directives" />
+    <Folder Include="Content\js\app\services" />
     <Folder Include="Content\js\vendor" />
+    <Folder Include="Content\js\vendor\angular" />
+    <Folder Include="Content\partials" />
     <Folder Include="Models\Helpers" />
     <Folder Include="Models\ViewModel" />
     <Folder Include="Modules" />
@@ -140,8 +157,7 @@
           <IISUrl>http://localhost:6345/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

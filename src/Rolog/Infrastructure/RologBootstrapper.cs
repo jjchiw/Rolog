@@ -82,6 +82,10 @@ namespace Rolog.Infrastructure
 			conventions.StaticContentsConventions.Add(
 				StaticContentConventionBuilder.AddDirectory("img", @"Content/img")
 			);
+			
+			conventions.StaticContentsConventions.Add(
+				StaticContentConventionBuilder.AddDirectory("partials", @"Content/partials")
+			);
 		}
 	}
 }
